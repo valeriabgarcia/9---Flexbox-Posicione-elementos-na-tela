@@ -1,0 +1,41 @@
+https://cursos.alura.com.br/course/posicione-elementos-com-flexbox?preRequirementFrom=mobile-first-layouts-responsivos
+
+Para descobrir em quais sistemas a propriedade Flexbox funciona podemos consultar
+http://caniuse.com/
+
+https://dabblet.com/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+http://flexboxfroggy.com/
+http://www.flexboxdefense.com/
+
+
+
+1 - INTRODUÇÃO AO FLEXBOX E FAZENDO O CABEÇALHO 
+O display: flex veio com o intuito de facilitar nossa vida nesses aspectos de posicionamento. 
+Ele permite os elementos ficarem um do lado do outro, permite espaçar os elementos de forma mais intuitiva e sem ter que fazer cálculos. 
+Além disso ele também permite alinhar os elementos verticalmente de forma fácil.
+Comandos:
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+2 - FAZENDO O FOOTER E CONTROLANDO MELHOR OS ELEMENTOS
+flex-direction: column no pai, dessa forma ele muda o fluxo o qual o flexbox renderiza os elementos. Assim eles ficam um em baixo do outro.
+flex-wrap: wrap : quando o conteúdo ultrapassar o tamanho do pai, ele simplesmente quebre para uma próxima coluna
+
+3 - GRID PRINCIPAL E LIMITAÇÕES DO FLEXBOX
+Para espaçar corretamente os elementos de um grid temos que realmente fazer contas com a boa e velha margin e width
+
+4 - ARRUMANDO OS ELEMENTOS COM FLEX PARA MOBILE
+Quando temos que adaptar nossos sites para mobile, Para aproveitar o espaço precisamos colocar os elementos um em baixo do outro.
+	- flex-direction: column.
+- flex container: (justify-content, align-items, flex-direction, flex-wrap_
+- flex items: (order, flex-grow, flex-shrink)
+- A propriedade display: flex pode ser usada nos dois. Se for usada em um flex item esse elemento será tanto um flex item quanto um flex container.
+Mudar a ordem do menu usando a propriedade order. Para fazer isso devemos colocar flex-direction: column
+
+5 - MAIS SOBRE FLEXBOX & DESAFIOS
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+http://flexboxfroggy.com/
+http://www.flexboxdefense.com/
